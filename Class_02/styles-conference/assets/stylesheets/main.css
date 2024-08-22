@@ -54,7 +54,7 @@ table {
 */
 body {
 	color: #888;
-	font: 300 16px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
 
 /*
@@ -208,6 +208,7 @@ h1 {
   }
   .hero p {
 	font-size: 24px;
+	font-weight: 100;
   }
 /*
   ========================================
@@ -217,11 +218,14 @@ h1 {
 
 .logo {
 	border-top: 4px solid #648880;
-  	float: left;
-  	font-size: 48px;
-  	line-height: 44px;
-  	padding: 40px 0 22px 0;
-}
+	float: left;
+	font-size: 48px;
+	font-weight: 100;
+	letter-spacing: .5px;
+	line-height: 44px;
+	padding: 40px 0 22px 0;
+	text-transform: uppercase;
+  }
 /*
   ========================================
   Primary footer
